@@ -7,26 +7,7 @@ window.onload=function(){
         squares[i].className= "square"; 
      } 
   
-  var j=0; 
-  for (const element of squares){ 
-    element.addEventListener("click",function(){ 
-      if (j%2==0){ 
-                element.textContent="X"; 
-                element.classList.add("X"); 
-            }  
-            else{ 
-                element.textContent="O"; 
-                element.classList.add("O"); 
-            } 
-            j++; 
-    }) 
-    element.addEventListener("mouseover",function(){ 
-      element.classList.add("hover"); 
-    }) 
-    element.addEventListener("mouseout",function(){ 
-      element.classList.remove("hover"); 
-      }) 
-  } 
+
      
      
 }
